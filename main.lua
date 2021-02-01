@@ -1,5 +1,4 @@
 local player = {["x"] = 0, ["y"] = 0};
-local speed = 100;
 local seconds = 0;
 local direction = "right";
 local update = true;
