@@ -27,8 +27,6 @@ local bitmap = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 
 love.draw = function()
 
-    --local rectangle = {player.x,player.y,player.x+100,player.y,player.x+100,player.y+100,player.x,player.y+100};
-
     love.graphics.setColor(0,0,1,1);
     
     local coords = {["x"] = 0, ["y"] = 0};
